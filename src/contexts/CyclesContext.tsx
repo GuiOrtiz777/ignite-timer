@@ -84,6 +84,8 @@ export function CyclesContextProvider({
         }
       }),
     )
+
+    setActiveCycleId(null)
   }
 
   return (
