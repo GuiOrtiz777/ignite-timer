@@ -14,6 +14,19 @@ export const HistoryContainer = styled.div`
   }
 `
 
+export const HistoryEmpty = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.875rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  flex: 1;
+  border: 1px solid ${(props) => props.theme['gray-100']};
+  color: ${(props) => props.theme.white};
+`
+
 export const HistoryList = styled.div`
   flex: 1;
   overflow: auto;

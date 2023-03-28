@@ -18,8 +18,8 @@ interface CycleContextType {
   cycles: Cycle[]
   activeCycle: Cycle | undefined
   activeCycleId: string | null
-  markCurrentCycleAsFineshed: () => void
   amountSecondsPassed: number
+  markCurrentCycleAsFineshed: () => void
   setSecondsPassed: (seconds: number) => void
   createNewCycle: (data: CreateCycleData) => void
   interruptCurrentCycle: () => void
