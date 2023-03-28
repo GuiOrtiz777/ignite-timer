@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const HistoryContainer = styled.div`
   flex: 1;
   padding: 3.5rem;
+  overflow: auto;
 
   display: flex;
   flex-direction: column;
